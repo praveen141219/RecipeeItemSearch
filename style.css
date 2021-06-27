@@ -1,0 +1,154 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #b3cdd1;
+  background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#recipee {
+  width: 375px;
+  min-height: 100vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#search_section {
+  background: #a862ea;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  width: 100%;
+}
+.search_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+#search_section input {
+  font-size: calc(1.5rem + 1vw);
+  border: none;
+  height: 3rem;
+  width: 65%;
+  color: #a862ea;
+  text-indent: 3rem;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.54);
+}
+#search_section i {
+  font-size: 1.3rem;
+  padding: 0.85rem;
+  background: #fff;
+  position: absolute;
+  left: 6%;
+  margin-left: 2rem;
+  color: #a862ea;
+}
+#fav_section {
+  background: #e7d9f3;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  border-top: 2px solid #7607dd;
+  border-bottom: 2px solid #7607dd;
+  padding: 1rem;
+}
+.fav_meal_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.favitem_container {
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fav_img_box {
+  border: 2px solid #a862ea;
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+}
+.fav_img_box img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.favitem_container p {
+  font-size: calc(1rem + 1vw);
+}
+#recipee_card_container {
+  margin: 2rem;
+  background: #aaa;
+  height: 40%;
+  width: 90%;
+  border-radius: 0.4rem 0.4rem 0 0;
+  position: relative;
+}
+.recipee_card {
+  /* box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.54); */
+}
+.Random_recipee_image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+#recipee_card_container h4 {
+  font-size: calc(1rem + 0.4vw);
+  background: #fff;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  position: absolute;
+  top: 10%;
+  left: -1%;
+}
+
+.recipee_card_name_contains {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border: 2px solid rgb(131, 127, 127);
+  border-top: none;
+  background: #fff;
+  border-radius: 0 0 0.4rem 0.4rem;
+}
+
+.recipee_card_name_contains h5 {
+  font-size: 2rem;
+}
+.recipee_card_name_contains i {
+  color: #aaa;
+  font-size: 2rem;
+  cursor: pointer;
+}
+#search_rec_section {
+  margin-top: 5rem;
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+}
